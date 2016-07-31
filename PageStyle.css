@@ -2,6 +2,12 @@ body {
     background-color: lightgrey;
     font-family: courier;
     font-size: 150%;
+    top: 0px;
+}
+
+header {
+    width: 100%;
+    height: 46px;
 }
 
 ul {
