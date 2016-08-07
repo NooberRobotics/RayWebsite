@@ -17,7 +17,7 @@ ul {
     left: 0px;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color:dimgray;
     overflow: hidden;
 }
 
@@ -29,7 +29,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 

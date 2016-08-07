@@ -12,7 +12,7 @@
 
 }
 .bgimg-1 {
-    background-image: url("Temp.jpg");
+    background-image: url("Noober.jpg");
     min-height: 400px;
 }
 
@@ -37,10 +37,10 @@
 }
 
 .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: transparent;
+    color: whitesmoke;
     padding: 18px;
-    font-size: 25px;
+    font-size: 100px;
     letter-spacing: 10px;
 }
 
