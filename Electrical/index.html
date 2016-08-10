@@ -20,27 +20,40 @@
             <h1>
                     Electrical
                 </h1>
-            <p> The electrical systems of the ray were designed to be modular and replaceable. To do this, we created a circuit rack that allowed us
-            to easily remove all of our circuits. The rack was actually made of another circuit board, with female headers as the plug-in points.
-            This rack board contained all the power rail, input, and output connections on it, and allowed us to route all of our inputs directly to
-            the TINIAH board. </p>
+            <p> <img src="boris.jpg" alt="Our circuit rack" style="float:left;clear:left;padding:20px;width:350px;height:300px;" >
+            The electrical systems of the ray were designed to be modular and replaceable, and we wanted to make sure that all inputs, outputs, and power connections were easy to keep track of. These goals line up with our principles of simplicity, robustness, and adaptability. <p>
+            To accomplish these goals, we created a circuit rack that allowed usto easily remove all of our circuits. The rack was actually made of another circuit board, with female headers as the plug-in points. This rack board contained all the power rails, inputs, and outputs on it, and allowed us to route all of our inputs directly to the TINIAH board. </p> </p>
 
-            <p> Two main kinds of circuits were used. H-bridges, to control the drivetrain (right side) and IR processing circuits. The IR processing circuits
+            <!--
+            <p> <img src="Back%20compartment.jpg" alt="Back of Ray" style="float:right;clear:right;padding:20px;width:600px;height:400px;">
+                Two main kinds of circuits were used. H-bridges, to control the drivetrain (right side) and IR processing circuits. The IR processing circuits
                 detected the IR light, performed DC blocking, filtered to the right frequency (using a biquad filter), amplified the signal, and rectified it to
                 a near DC signal that could be taken as an analog input to the TINAH board.
 
-            </p>
+            </p> -->
             <!-- </h1 -->
         </article>
-        <article style="float:right;clear:right;padding: 10px;"> <img src="Back%20compartment.jpg" alt="Back of Ray" style="width:800px;height:600px;"> </article>
+        <article>
+            <p> <img src="Back%20compartment.jpg" alt="Back of Ray" style="float:right;clear:right;padding:20px;width:600px;height:400px;">
+                <p> </p>
+
+                <p>On the right is an image of our circuits inserted in the rack, which is mounted in the back compartment of the ray. Two main kinds of circuits were used. H-bridges, to control the drivetrain (right side) and IR processing circuits (left side) for accurately detecting passengers.
+                </p>
+                <p>The IR processing circuits
+                detected the IR light, performed DC blocking, filtered to the right frequency (using a biquad filter), amplified the signal, and rectified it to
+                a near DC signal that could be taken as an analog input to the TINAH board.
+                </p>
+
+            <p> The H-bridges drew PWM signals from the motor outputs of the TINAH and used four MOSFET's for rapid switching. The particular model of H-bridge that we used was designed by Scott Lawson, and can be seen below.</p>
+
+            </p>
+            </article>
+        <article style="float:right;clear:right;padding: 10px;"> <img src="h_bridge_circuit.PNG" alt="Our circuit rack" style="width:850px;height:500px;" > </article>
+        <!--<img src="Back%20compartment.jpg" alt="Back of Ray" style="width:800px;height:600px;"> -->
+        <!-- <article style="float:right;clear:right;padding: 10px;"> <img src="Back%20compartment.jpg" alt="Back of Ray" style="width:800px;height:600px;"> </article> -->
         <section style="width:100%;height:0px;clear:right;"> </section>
-        <article style="float:left;padding: 15px;"> <img src="Temp.jpg" alt="A Temporary Picture" style="width:300px;height:200px;"> </article>
-        <article style="float:right;clear:right;">
-            <h1>
-                    Background
-                </h1>
-            <p> We worked for a month prior to the competition. </p>
-        </article>
+        <article style="float:right;clear:right;padding: 10px;"> <img src="Ray's%20Electronics%203.jpg" alt="View from above" style="width:800px;height:600px;"> </article>
+
     </div>
 </body>
 
